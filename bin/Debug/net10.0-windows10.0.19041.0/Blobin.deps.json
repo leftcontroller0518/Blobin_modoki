@@ -1,0 +1,553 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Blobin/1.0.0.0": {
+        "dependencies": {
+          "FFmpeg.AutoGen": "8.0.0.1",
+          "SharpGen.Runtime.COM": "2.0.0.0",
+          "SharpGen.Runtime": "2.0.0.0",
+          "Vortice.Direct2D1": "2.1.8.0",
+          "Vortice.Direct3D11": "2.1.8.0",
+          "Vortice.DirectX": "2.1.8.0",
+          "Vortice.Mathematics": "1.4.0.0",
+          "YukkuriMovieMaker.Controls": "1.0.0.0",
+          "YukkuriMovieMaker.Plugin": "1.0.0.0",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
+        },
+        "runtime": {
+          "Blobin.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.38",
+            "fileVersion": "10.0.19041.55"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.48161"
+          }
+        }
+      },
+      "FFmpeg.AutoGen/8.0.0.1": {
+        "runtime": {
+          "FFmpeg.AutoGen.dll": {
+            "assemblyVersion": "8.0.0.1",
+            "fileVersion": "8.0.0.1"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.0.0.0": {
+        "runtime": {
+          "SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.0.0.0": {
+        "runtime": {
+          "SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Vortice.Direct2D1/2.1.8.0": {
+        "runtime": {
+          "Vortice.Direct2D1.dll": {
+            "assemblyVersion": "2.1.8.0",
+            "fileVersion": "2.1.8.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/2.1.8.0": {
+        "runtime": {
+          "Vortice.Direct3D11.dll": {
+            "assemblyVersion": "2.1.8.0",
+            "fileVersion": "2.1.8.0"
+          }
+        }
+      },
+      "Vortice.DirectX/2.1.8.0": {
+        "runtime": {
+          "Vortice.DirectX.dll": {
+            "assemblyVersion": "2.1.8.0",
+            "fileVersion": "2.1.8.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/1.4.0.0": {
+        "runtime": {
+          "Vortice.Mathematics.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.12.16505"
+          }
+        }
+      },
+      "YukkuriMovieMaker.Controls/1.0.0.0": {
+        "runtime": {
+          "YukkuriMovieMaker.Controls.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "YukkuriMovieMaker.Plugin/1.0.0.0": {
+        "runtime": {
+          "YukkuriMovieMaker.Plugin.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "ar-sa/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "ar-sa"
+          },
+          "en-us/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "en-us"
+          },
+          "es-es/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "es-es"
+          },
+          "id-id/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "id-id"
+          },
+          "ko-kr/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "ko-kr"
+          },
+          "zh-cn/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "zh-cn"
+          },
+          "zh-tw/YukkuriMovieMaker.Plugin.resources.dll": {
+            "locale": "zh-tw"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors/1.1.0.0": {
+        "runtime": {
+          "Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.142.60144"
+          }
+        }
+      },
+      "System.Windows.Forms/10.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        },
+        "resources": {
+          "es/System.Windows.Forms.resources.dll": {
+            "locale": "es"
+          },
+          "ja/System.Windows.Forms.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/System.Windows.Forms.resources.dll": {
+            "locale": "ko"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.4.30916"
+          }
+        }
+      },
+      "YamlDotNet/18.0.0.0": {
+        "runtime": {
+          "YamlDotNet.dll": {
+            "assemblyVersion": "18.0.0.0",
+            "fileVersion": "18.0.0.0"
+          }
+        }
+      },
+      "LlmTornado/3.0.5.0": {
+        "runtime": {
+          "LlmTornado.dll": {
+            "assemblyVersion": "3.0.5.0",
+            "fileVersion": "3.0.5.0"
+          }
+        }
+      },
+      "NAudio.Core/2.3.0.0": {
+        "runtime": {
+          "NAudio.Core.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.3.0.0": {
+        "runtime": {
+          "NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "SoundTouch.Net/2.3.0.0": {
+        "runtime": {
+          "SoundTouch.Net.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.2.0"
+          }
+        }
+      },
+      "ICSharpCode.AvalonEdit/6.3.1.120": {
+        "runtime": {
+          "ICSharpCode.AvalonEdit.dll": {
+            "assemblyVersion": "6.3.1.120",
+            "fileVersion": "6.3.1.120"
+          }
+        }
+      },
+      "System.ServiceProcess.ServiceController/10.0.0.9": {
+        "runtime": {
+          "System.ServiceProcess.ServiceController.dll": {
+            "assemblyVersion": "10.0.0.9",
+            "fileVersion": "10.0.926.27113"
+          }
+        }
+      },
+      "Vortice.DXGI/2.1.8.0": {
+        "runtime": {
+          "Vortice.DXGI.dll": {
+            "assemblyVersion": "2.1.8.0",
+            "fileVersion": "2.1.8.0"
+          }
+        }
+      },
+      "AvalonDock/4.72.1.0": {
+        "runtime": {
+          "AvalonDock.dll": {
+            "assemblyVersion": "4.72.1.0",
+            "fileVersion": "4.72.1.0"
+          }
+        },
+        "resources": {
+          "ca-ES/AvalonDock.resources.dll": {
+            "locale": "ca-ES"
+          },
+          "cs-CZ/AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "de/AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "es/AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "fr/AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "hu/AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "it/AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "ja/AvalonDock.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/AvalonDock.resources.dll": {
+            "locale": "ko"
+          },
+          "nl-BE/AvalonDock.resources.dll": {
+            "locale": "nl-BE"
+          },
+          "pl/AvalonDock.resources.dll": {
+            "locale": "pl"
+          },
+          "pt/AvalonDock.resources.dll": {
+            "locale": "pt"
+          },
+          "ro/AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "ru/AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "sv/AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "zh-Hans/AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/AvalonDock.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Vortice.MediaFoundation/2.1.8.0": {
+        "runtime": {
+          "Vortice.MediaFoundation.dll": {
+            "assemblyVersion": "2.1.8.0",
+            "fileVersion": "2.1.8.0"
+          }
+        }
+      },
+      "System.Management/10.0.0.9": {
+        "runtime": {
+          "System.Management.dll": {
+            "assemblyVersion": "10.0.0.9",
+            "fileVersion": "10.0.926.27113"
+          }
+        }
+      },
+      "NCalc.Core/6.2.0.0": {
+        "runtime": {
+          "NCalc.Core.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.17"
+          }
+        }
+      },
+      "System.Windows.Forms.Primitives/10.0.0.0": {
+        "runtime": {
+          "System.Windows.Forms.Primitives.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1026.32716"
+          }
+        },
+        "resources": {
+          "es/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "es"
+          },
+          "ja/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/System.Windows.Forms.Primitives.resources.dll": {
+            "locale": "ko"
+          }
+        }
+      },
+      "Parlot/1.5.7.0": {
+        "runtime": {
+          "Parlot.dll": {
+            "assemblyVersion": "1.5.7.0",
+            "fileVersion": "1.5.7.0"
+          }
+        }
+      },
+      "NCalc.Domain/6.2.0.0": {
+        "runtime": {
+          "NCalc.Domain.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.17"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/10.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.726.21808"
+          }
+        }
+      },
+      "NCalc.Parser/6.2.0.0": {
+        "runtime": {
+          "NCalc.Parser.dll": {
+            "assemblyVersion": "6.2.0.0",
+            "fileVersion": "6.2.0.17"
+          }
+        }
+      },
+      "ExtendedNumerics.BigDecimal/3003.0.0.346": {
+        "runtime": {
+          "ExtendedNumerics.BigDecimal.dll": {
+            "assemblyVersion": "3003.0.0.346",
+            "fileVersion": "3003.0.0.346"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0.0": {
+        "runtime": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.726.21808"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blobin/1.0.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.57": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FFmpeg.AutoGen/8.0.0.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpGen.Runtime.COM/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpGen.Runtime/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.Direct2D1/2.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.Direct3D11/2.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.DirectX/2.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.Mathematics/1.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YukkuriMovieMaker.Controls/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YukkuriMovieMaker.Plugin/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Xaml.Behaviors/1.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YamlDotNet/18.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LlmTornado/3.0.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Core/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NAudio.Wasapi/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SoundTouch.Net/2.3.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ICSharpCode.AvalonEdit/6.3.1.120": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ServiceProcess.ServiceController/10.0.0.9": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.DXGI/2.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AvalonDock/4.72.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.MediaFoundation/2.1.8.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Management/10.0.0.9": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NCalc.Core/6.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Windows.Forms.Primitives/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Parlot/1.5.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NCalc.Domain/6.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.Logging.Abstractions/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NCalc.Parser/6.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExtendedNumerics.BigDecimal/3003.0.0.346": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/10.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
