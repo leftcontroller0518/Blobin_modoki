@@ -1,6 +1,6 @@
 # Blobinもどき
 Aftereffectsのプラグイン、Blobinを再現したプラグインです。
-映像からBlobinを取得して任意の装飾を施します
+映像からBlobを取得して任意の装飾を施します
 https://booth.pm/ja/items/8662729
 元制作者様のプラグインも一緒にご覧ください。
 ## コードについて
