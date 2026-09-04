@@ -11,3 +11,4 @@ https://booth.pm/ja/items/8662729
 - バグについては私左コントローラーの[X(旧Twitter)のDM](https://x.com/aoihou0518)へどうぞ
 ## changelog
 - 2026/08/13 1.0.0 公開
+- 2026/09/02 1.1.0 他言語化
