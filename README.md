@@ -1,4 +1,9 @@
 # Blobinもどき
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](#)
+[![.NET](https://img.shields.io/badge/.NET-10.0-blue.svg)](#)
+[![Downloads](https://img.shields.io/github/downloads/leftcontroller0518/Blobin_modoki/total)](https://github.com/leftcontroller0518/Blobin_modoki/releases/latest)
+
+
 Aftereffectsのプラグイン、Blobinを再現したプラグインです。
 映像からBlobを取得して任意の装飾を施します
 https://booth.pm/ja/items/8662729
